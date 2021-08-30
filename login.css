@@ -1,0 +1,312 @@
+.nav-style-settings{
+    background-color: #a9a9a9;
+    display: flex;
+    align-items: center
+}
+.ds-none{
+    display: none;
+}
+.ds-block{
+    display: block;
+}
+.container{
+    color: black;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    max-width: 100% !important;
+}
+.container-style {
+    display: inline-block;
+    cursor: pointer;
+    margin: 5px 5px;
+  }
+  
+  .bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: white;
+    margin: 6px 0;
+  }
+  
+  .change .bar1 {
+    -webkit-transform: rotate(-45deg) translate(-9px, 6px);
+    transform: rotate(-45deg) translate(-9px, 6px);
+  }
+  
+  .change .bar2 {opacity: 0;}
+  
+  .change .bar3 {
+    -webkit-transform: rotate(45deg) translate(-8px, -8px);
+    transform: rotate(45deg) translate(-8px, -8px);
+  }
+
+
+  .container .facebook-logo-class{
+      width: 130px;
+      display: flex;
+      margin-right: auto;
+      cursor: pointer;
+  }
+
+.container .container-in-class .header-list-class{
+    list-style-type: none;
+    display: flex;flex-direction: unset;
+    justify-content: flex-end;
+    padding: 0;
+    margin: 0;
+}
+
+.container .container-in-class .header-list-class .border-text-settings{
+    color: white;
+    border-color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: 25px;
+    margin-top: 15px;
+    font-family: cursive;
+}
+.container .container-in-class .header-list-class .border-text-settings:hover{
+    color: black;
+}
+.container .container-in-class .header-list-class .logout-class{
+    width: 2%;
+    cursor: pointer;
+    margin: 15px 0 10px 20px;
+}
+
+.logout-class2{
+    width: 10%;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.user-copyright{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    margin-left: 70px;
+}
+
+.user-copyright .designed-user .name-settings{
+    cursor: pointer;
+    color: black;
+}
+
+.user-copyright .designed-user .name-settings:hover{
+    color: white;
+}
+
+.designed-user{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.name-underline-none {
+    text-decoration: none;
+}
+
+#toggleMenu .hamburgerMenuValues .hamburger-menu-value{
+    list-style-type: none;
+    cursor: pointer;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: cursive;
+}
+
+#toggleMenu .hamburgerMenuValues .hamburger-menu-value:hover{
+    color: white;
+}
+
+#toggleMenu .hamburgerMenuValues .button-x{
+    border: none;
+    border-radius: 13px;
+    background-color: darkgray;
+    margin-top: 5px;
+}
+
+#toggleMenu.ds-none .hamburgerMenuValues{
+    width: 0;
+    transition: width 0.5s ease-out;
+
+}
+
+.facebook-logo-class-2{
+    width: 50%;
+}
+
+#toggleMenu.ds-block .hamburgerMenuValues{
+    text-align: center;
+    height: 100vh;
+    width: 40vh ;
+    position: fixed;
+    background-color: gray;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    transition: width 0.5s ease-out;
+
+}
+
+.input-all-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif ;
+    margin-top: 40px;
+}
+
+h1{
+    text-align: center;
+}
+
+.input-all-div .checkbox{
+    margin-top: 10px;
+}
+
+.input-all-div .checkbox-div{
+    margin-top: 10px;
+}
+
+.input-all-div .email-pass-settings{
+    border: none;
+    border-bottom: 1px solid;
+}
+
+.email-pass-settings:focus{
+    outline: none;
+    border-color:darkturquoise;
+}
+
+.email-pass-settings:hover{
+    border-color: darkturquoise;
+}
+
+#buttonLogin{
+    margin-top: 10px;
+}
+
+.input-all-div .password-settings{
+    margin-top: 20px;
+}
+
+.input-all-div .email-settings{
+    margin-top: 20px;
+}
+
+.input-all-div .checkbox-div .checkbox-display {
+    display: flex;
+    align-items: baseline;
+}
+
+.input-all-div .user-img-settings{
+    width: 5%;
+}
+
+.input-all-div .login-text {
+    margin-top: 20px;
+    font-family: Coronetscript, cursive;
+    
+}
+
+.checkbox-lean{
+    display: flex;
+    align-items: baseline;
+}
+
+.checkbox-div .checkbox-display .forgot-password-settings{
+    margin-left: 30px;
+    text-decoration: none;
+    color: black; 
+}
+
+.checkbox-div .checkbox-display .forgot-password-settings:hover{
+    color: blue;
+}
+
+.sign-in{
+    text-decoration: none;
+    color: gray; 
+}
+
+.sign-in:hover{
+    color: blue;
+}
+
+.login-jpg{
+    width: 10%;
+    margin-top: 20px;
+}
+
+.footer-all-div{
+    color: white;
+    background-color: #a9a9a9;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    text-align: center;
+    font-size: 13px;
+    display: flex;
+    justify-content:space-between;
+}
+
+.footer-all-div .footer-left{
+    text-align: left;
+    margin-left: 100px;
+    cursor: pointer;
+    margin-bottom: 10px;
+    font-family: cursive;
+}
+.footer-all-div .footer-left:hover{
+    color: black;
+}
+.footer-all-div .footer-left-and-head{
+    text-align: left;
+    margin-left: 100px;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+
+.footer-all-div .footer-center{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    cursor: pointer;
+    font-family: cursive;
+}
+
+.footer-all-div .footer-center:hover{
+    color: black;
+}
+
+
+.footer-all-div .footer-center-and-head{
+    text-align: center;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+
+
+
+.footer-all-div .footer-right{
+    text-align: right;
+    margin-right: 100px;
+    font-family: cursive;
+}
+
+.footer-all-div .footer-right-and-head{
+    text-align: right;
+    margin-right: 100px;
+    color: black;
+    font-size: 15px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+

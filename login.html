@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./login.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+    <title>Login</title>
+</head>
+<body>
+    <header>
+        <nav class="nav-style-settings">
+            <div class="container-style" onclick="hamburgerMenu()">
+                <div class="bar1"></div>
+                <div class="bar2"></div>
+                <div class="bar3"></div>
+            </div>
+            <div class="container">
+                <div class="container-in-class">
+                    <ul class="header-list-class">
+                        <img src="./facebookLogo.png" class="facebook-logo-class">
+                        <li class="border-text-settings">Ana Sayfa</li>
+                        <li class="border-text-settings">Etkinlikler</li>
+                        <li class="border-text-settings">Haberler</li>
+                        <li class="border-text-settings">Profil</li>
+                        <img src="./logout.png" class="logout-class">
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div id="toggleMenu" class="ds-none">    
+            <ul class="hamburgerMenuValues" id="hamburgerMenuValues">
+                <img src="./facebookLogo.png" class="facebook-logo-class-2">
+                <button class="button-x" onclick="buttonx()" id="buttonx">X</button>
+                <li class="hamburger-menu-value">Ana Sayfa</li>
+                <li class="hamburger-menu-value">Etkinlikler</li>
+                <li class="hamburger-menu-value">Haberler</li>
+                <li class="hamburger-menu-value">Profil</li>
+                <img src="./logout.png" class="logout-class2">
+                <div class="user-copyright">
+                    <p class="designed-user">Designed By <a href="https://github.com/gulerhan" target="_blank" class="name-underline-none"> <i class="name-settings"> Erhan GÜL</i></a></p>
+                    <p><strong>Copyright Reserved</strong></p>
+                </div>
+            </ul>
+        </div>
+    </header>
+
+    <div class="input-all-div">
+        <img src="./user.png" class="user-img-settings">
+        <img src="./login.jpg" class="login-jpg">
+        <div>
+            <p class="email-settings">Email</p>
+            <input type="text" size="30" class="email-pass-settings" id="emailId">
+        </div>
+        <div>
+            <p class="password-settings">Password</p>
+            <input type="password" size="30" class="email-pass-settings" id="passwordId">
+        </div>
+        <div class="checkbox-div">
+            <div class="checkbox-display">
+                <div class="checkbox-lean">
+                    <input type="checkbox" class="checkbox">
+                    <p>Remember me</p>
+                </div>
+                <div>
+                    <a href="https://www.google.com.tr/" target="_blank" class="forgot-password-settings">Forgot password!</a>
+                </div>
+            </div>
+        </div>
+        <div>
+            <button class="btn btn-primary" id="buttonLogin" onclick="loginButton()">Giriş yap</button>
+            <a href="https://www.google.com.tr/" target="_blank" class="sign-in">Sign in</a>
+        </div>
+    </div>
+
+    <footer>
+        <div class="footer-all-div">
+            <div>
+                <p class="footer-left-and-head">Sayfalar</p>
+                <p class="footer-left">Ana Sayfa</p>
+                <p class="footer-left">Etkinlikler</p>
+                <p class="footer-left">Haberler</p>
+                <p class="footer-left">Profil</p>
+            </div>
+            <div>
+                <p class="footer-center-and-head">Sosyal Medya</p>
+                <a class="footer-center" href="https://www.facebook.com/erancsgo/" target="_blank">Facebook</a>
+                <a class="footer-center" href="https://www.instagram.com/erhangul0/" target="_blank">Instagram</a>
+                <a class="footer-center" href="https://mail.google.com/mail/u/0/#inbox?compose=GTvVlcSMVJPxhtbmWBbBgBWPWmCXJqSRGXDCcWZhSHCxLvCRFRRQMJnFjXrCMLpCFfbRsHnxxqgKn" target="_blank">E-posta</a>
+                <a class="footer-center" href="https://www.linkedin.com/in/erhan-gul-b832a11b3/" target="_blank">LınkedIn</a>
+            </div>
+            <div>
+                <p class="footer-right-and-head">İletişim</p>
+                <p class="footer-right">gulerhan6@gmail.com</p>
+            </div>
+        </div>
+        
+    </footer>
+    <script src="./login.js"></script>
+</body>
+</html>
